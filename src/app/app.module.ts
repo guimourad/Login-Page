@@ -12,7 +12,8 @@ import { HttpClientModule } from '@angular/common/http';
 import { BrowserAnimationsModule, provideAnimations } from '@angular/platform-browser/animations';
 
 import { provideHttpClient } from '@angular/common/http';
-import { ToastrModule, ToastrService } from 'ngx-toastr';
+import { ToastrModule } from 'ngx-toastr';
+import { SignupComponent } from './pages/signup/signup.component';
 
 
 @NgModule({
@@ -21,6 +22,7 @@ import { ToastrModule, ToastrService } from 'ngx-toastr';
     LoginLayoutComponent,
     LoginComponent,
     PrimaryInputComponent,
+    SignupComponent
   ],
   imports: [
     BrowserModule,
